@@ -51,7 +51,6 @@ for (word of storyWords){
    sentencesCount +=1
   }
 }
-//console.log(sentencesCount)
 
 
 let sentencesCount2 = 0;
@@ -61,10 +60,6 @@ storyWords.forEach(word => {
   }
 });
 
-//console.log(sentencesCount2)
-
-// LOG to console 
-
 console.log('The word count:', storyWords.length)
 console.log('The sentence count:', sentencesCount)
 console.log("really count:", reallyCount)
@@ -72,26 +67,6 @@ console.log("really very:", veryCount)
 console.log("basically count:", basicallyCount)
 console.log('The number of times each overused words appers:', overusedWordsCount)
 
-//Log to console with function
-/*
-const logInfo = (storyWords, sentencesCount, overusedWordsCount) => {
-console.log('The word count:', storyWords.length);
-console.log('The sentence count:', sentencesCount);
-console.log('The number of times each overused words appers:', overusedWordsCount);
-}
-*/
+
 const betterWordsString = betterWords.join(' ');
 console.log(betterWordsString);
-
-/*
-//START Replaced overused words with something else.
-
-for (word of storyWords){
-  if (word === "very"){
-    "very" == "BIG";
-  }
-}
-const storyWordsString = storyWords.join(' ')
-console.log('!!!!!!START!!!!!!', storyWordsString)
-//FINISH Replaced overused words with something else.
-*/
